@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-royal-purple: #30208F;
+    --color-deep-purple: #211568;
+    --color-golden-yellow: #FFC629;
+    --color-warm-white: #FFFDF7;
+    --color-dark-charcoal: #201F25;
+    --color-light-cream: #FFF6DD;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom utility classes for brand */
+.bg-deep-purple {
+  background-color: #211568;
+}
+
+.bg-royal-purple {
+  background-color: #30208F;
+}
+
+.bg-golden-yellow {
+  background-color: #FFC629;
+}
+
+.text-golden-yellow {
+  color: #FFC629;
+}
+
+.text-royal-purple {
+  color: #30208F;
+}
+
+.text-deep-purple {
+  color: #211568;
+}
+
+.border-golden-yellow {
+  border-color: #FFC629;
+}
+
+/* Custom focus ring */
+:focus-visible {
+  outline: 2px solid #FFC629;
+  outline-offset: 2px;
+}

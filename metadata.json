@@ -1,0 +1,6 @@
+{
+  "name": "HeavenZ Cafe - Real Taste of Chicken",
+  "description": "Official website for HeavenZ Cafe in Okara, Pakistan. Chicken-focused cafe offering dine-in, curbside pickup, and delivery enquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
